@@ -1,0 +1,685 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* page 1 */
+.header{
+    display: flex;
+    height: 60px;
+}
+.header h3{
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+}
+
+.header ul{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 240px;
+}
+.header ul li{
+    padding-left: 50px;
+    font-size: 20px;
+    color: green;
+    list-style: none;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+}
+
+.header .btn1{
+    margin-left: 250px;
+    margin-top: 18px;
+}
+
+.butt1{ 
+    width: 90px;
+    height: 25px;
+    background-color: green;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+.butt2{
+
+    margin-left: 10px;
+    width: 90px;
+    height: 25px;
+    background: transparent;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+
+.qoral-img{
+    
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(12, 12, 12, 0.5),rgba(0,0,255,0.5)), url(./imgg/image\ 1.png);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(100%);
+}
+
+.qoral-img h1{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    text-transform: capitalize ;
+
+}
+
+.qoral-img p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+}
+
+.btn2{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+/* page 2 */
+
+.sect section{
+    background-color: aliceblue;
+}
+
+.sect h1{
+    font-size: 48px;
+    color: green;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+}
+
+
+.sect p{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+}
+
+.main2{
+    padding-top: 50px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.box1{
+    background-color: white;
+    width: 210px;
+    height: 350px;
+    padding-top: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    margin-bottom: 50px;
+}
+.box1 img{
+    /* margin-top: 10px; */
+    margin-left: 30px;
+    border-radius: 25px;
+
+}
+
+.box1 h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-top: 20px;
+  
+}
+ .box1 p{
+
+    text-align:center ;
+
+    
+    font-size: 10px;
+    font-weight: lighter;
+    font-style: italic;
+    /* margin-top: 20px; */
+   
+
+ }
+
+ h4{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: 50px;
+  
+
+ }
+
+ /* page3 */
+
+ .sect2 section{
+    background-color: aliceblue;
+ }
+ .sect2 h1{
+    color: green;
+    text-transform:capitalize ;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-top: 20px;
+ }
+
+ .sect2 p{
+    text-transform:capitalize ;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-top: 20px;
+ }
+
+ .sect2 .boxs1{
+    margin-top:100px ;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    width: 200px;
+    height: 180px;
+    border-radius: 20px;
+
+ }
+
+ .sect2 .main3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+ }
+
+ .sect2 .boxs1 i{
+    
+    font-size: 50px;
+    padding-left: 60px;
+    padding-top: 20px;
+ }
+
+ .sect2 .boxs1 h2{
+    
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    padding-top: 30px;
+ }
+
+ /* page 4 */
+
+
+ .sect3{
+    background-color: azure;
+    padding-bottom: 40px;
+ }
+
+ .sect3 h1{
+    
+    font-size: 48px;
+    color: green;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+ }
+
+ .sect3 p{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+ }
+
+ .boxss1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    margin-left: 10px;
+
+ }
+
+ .sect3 .qoral_img{
+    margin-left: 20px;
+ }
+
+ .sect3 .qoral_img h2{
+    
+    font-size: 28px;
+    color: green;
+    padding-top: 20px;
+    
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+ }
+
+ .sect3 .qoral_img h5{
+
+    
+    padding-top: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+ }
+
+ .sect3 .qoral_img a{
+    color: green;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-style: italic;
+    text-transform: capitalize ;
+    margin-bottom: 30px;
+
+ }
+
+ /* pag5 */
+
+ .sect4{
+    background-color: azure;
+ }
+
+ .sect4 .baxs2{
+    display: grid;
+    grid-template-columns: auto auto;
+ }
+
+ .sect4 .baxs2 .qoral{
+    margin-top: 40px;
+    margin-left: 30px;
+ }
+ .sect4 .baxs2 .qoral h1{
+    font-size: 38px;
+    color: green;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+ 
+
+ }
+
+ .sect4 .baxs2 .qoral p{
+    padding-top: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize 
+
+ }
+
+ .sect4 .baxs2 .qoral button{
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+    margin-bottom: 20px;
+ }
+
+ .sect4 .baxs2 .img{
+    position: relative;
+
+ }
+
+ .sect4 .buutan button{
+    position: absolute;
+    top: 2830px;
+    
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 17px;
+    background-color: white;
+    color: green;
+    /* margin-top: 20px; */
+    margin-left: 900px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize 
+
+ }
+
+ /* page 6 */
+
+ .sect5 section {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(12, 12, 12, 0.5),rgba(0,0,255,0.5)), url(./imgg/555.png);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(100%);
+ }
+
+ .sect5 .qorl1{
+    padding-top: 80px;
+    padding-left: 80px;
+ }
+
+ .sect5 .qorl1 h1{
+
+    
+    font-size: 70px;
+    color: white;
+    padding-top: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+ }
+
+ .sect5 .qorl1 .btn3{
+    margin-top: 50px;
+ }
+
+ 
+ /* page7 */
+
+ .sect6 section{
+    background-color: azure;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+ }
+
+ .sect6 .bxs2{
+    display: flex;
+ }
+
+ .sect6 .bxs2 .qrl1 h1{ 
+    font-size: 38px;
+    color: green;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+
+ }
+ .sect6 .bxs2 .qrl1 p{
+    padding-top: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize 
+
+ }
+
+ .sect6 .bxs2 .qrl1 button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 17px;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+  
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize 
+
+ }
+
+ .sect6 .bxs2 .bxicons{
+    background-color: green;
+    width: 250px;
+    height: 280px;
+    border-radius: 20px;
+    margin-left: 300px;
+ }
+
+ .sect6 .bxs2 .bxicons .icon1{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    color: white;
+
+ }
+
+ .sect6 .bxs2 .bxicons .icon1 i{
+    font-size: 30px;
+ }
+
+ .sect6 .bxs2 .bxicons .icon1 .icqrl{
+    padding-left: 20px;
+ }
+
+ .sect6 .bxs2 .bxicons .icon1 .icqrl h5{
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+ }
+
+ .sect6 .bxs2 .bxicons .icon1 .icqrl p{
+    font-size: 13px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+ }
+
+
+ /* page 8 */
+
+ .sect8 section{
+    background-color: azure;
+ }
+
+ .sect8 .mains1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+
+ .sect8 .mains1 h1{
+    
+    font-size: 38px;
+    color: green;
+  text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize ;
+
+ }
+ .sect8 .mains1 p{
+    
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+  text-transform: capitalize ;
+
+ }
+
+ .sect8 .mains1 .bxs1{
+    display: flex;
+    margin-top: 70px;
+    padding-top: 70px;
+    justify-content: space-evenly;
+ }
+
+ .sect8 .mains1 .bxs1 .imgs img{
+    margin-top: 120px;
+
+ }
+
+
+ .sect8 .mains1 .bxs1  .iconimg{
+    display: flex;
+    margin-bottom: 50px;
+    background-color: green;
+    width: 850px;
+    height: 250px;
+    border-radius: 10px;
+ }
+
+ .sect8 .mains1 .bxs1  .iconimg img{
+    padding-top: 40px;
+    padding-left: 50px;
+ }
+
+
+ .sect8 .mains1 .bxs1  .iconimg .icn-qrl{
+    padding-left: 80px;
+    padding-top:40px ;
+ }
+
+ .sect8 .mains1 .bxs1  .iconimg .icn-qrl i{
+    color: yellow;
+    padding-bottom: 17px;
+    
+ }
+
+ .sect8 .mains1 .bxs1  .iconimg .icn-qrl h3{
+    
+  color: white;
+  font-size: 25px;
+  padding-bottom: 17px;
+  font-weight: bolder;
+  font-style: italic;
+  text-transform: capitalize ;
+
+
+
+ }
+
+ .sect8 .mains1 .bxs1  .iconimg .icn-qrl h5{
+
+    color: gray;
+    font-size: 20px;
+  padding-bottom: 17px;
+  font-weight: bolder;
+  font-style: italic;
+  text-transform: capitalize ;
+
+ }
+
+ .sect8 .mains1 .bxs1  .iconimg .icn-qrl p{
+
+    color: white;
+    font-size: 15px;
+  padding-bottom: 17px;
+  font-weight: bolder;
+  font-style: italic;
+  text-transform: capitalize ;
+
+ }
+
+
+ /* footer */
+
+ 
+footer {
+    background-color: green;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffcc00; 
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.icon {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #ffcc00; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
